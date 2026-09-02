@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="868" height="568" viewBox="0 0 868 568" font-family="'JetBrains Mono','Cascadia Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="14">
+<rect width="100%" height="100%" rx="8" fill="#1a1b26"/>
+<text x="22.4" y="27.5" xml:space="preserve" fill="#f7768e" textLength="16.8" lengthAdjust="spacingAndGlyphs">● </text>
+<text x="39.2" y="27.5" xml:space="preserve" fill="#e0af68" textLength="16.8" lengthAdjust="spacingAndGlyphs">● </text>
+<text x="56" y="27.5" xml:space="preserve" fill="#9ece6a" textLength="8.4" lengthAdjust="spacingAndGlyphs">●</text>
+<text x="64.4" y="27.5" xml:space="preserve" fill="#c0caf5" textLength="739.2" lengthAdjust="spacingAndGlyphs">                                   guest@dfanso.dev:~                                   </text>
+<text x="803.6" y="27.5" xml:space="preserve" fill="#a9b1d6" textLength="42" lengthAdjust="spacingAndGlyphs">21:56</text>
+<text x="14" y="45.5" xml:space="preserve" fill="#a9b1d6" textLength="840" lengthAdjust="spacingAndGlyphs">────────────────────────────────────────────────────────────────────────────────────────────────────</text>
+<text x="47.6" y="63.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="64.4" y="63.5" xml:space="preserve" fill="#9ece6a" textLength="75.6" lengthAdjust="spacingAndGlyphs">Next.js  </text>
+<text x="140" y="63.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="156.8" y="63.5" xml:space="preserve" fill="#9ece6a" textLength="75.6" lengthAdjust="spacingAndGlyphs">Nest.js  </text>
+<text x="232.4" y="63.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="249.2" y="63.5" xml:space="preserve" fill="#9ece6a" textLength="75.6" lengthAdjust="spacingAndGlyphs">MongoDB  </text>
+<text x="324.8" y="63.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="341.6" y="63.5" xml:space="preserve" fill="#9ece6a" textLength="109.2" lengthAdjust="spacingAndGlyphs">TailwindCSS  </text>
+<text x="450.8" y="63.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="467.6" y="63.5" xml:space="preserve" fill="#9ece6a" textLength="84" lengthAdjust="spacingAndGlyphs">Firebase  </text>
+<text x="551.6" y="63.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="568.4" y="63.5" xml:space="preserve" fill="#9ece6a" textLength="42" lengthAdjust="spacingAndGlyphs">AWS  </text>
+<text x="610.4" y="63.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="627.2" y="63.5" xml:space="preserve" fill="#9ece6a" textLength="67.2" lengthAdjust="spacingAndGlyphs">Stripe  </text>
+<text x="694.4" y="63.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="711.2" y="63.5" xml:space="preserve" fill="#9ece6a" textLength="92.4" lengthAdjust="spacingAndGlyphs">Terraform  </text>
+<text x="47.6" y="81.5" xml:space="preserve" fill="#a9b1d6" textLength="210" lengthAdjust="spacingAndGlyphs">https://www.techxeed.com/</text>
+<text x="14" y="117.5" xml:space="preserve" fill="#a9b1d6" textLength="33.6" lengthAdjust="spacingAndGlyphs">├─▶ </text>
+<text x="47.6" y="117.5" xml:space="preserve" fill="#e0af68" textLength="33.6" lengthAdjust="spacingAndGlyphs">cat </text>
+<text x="81.2" y="117.5" xml:space="preserve" fill="#7aa2f7" textLength="176.4" lengthAdjust="spacingAndGlyphs">projects/quickquest/ </text>
+<text x="257.6" y="117.5" xml:space="preserve" fill="#a9b1d6" textLength="50.4" lengthAdjust="spacingAndGlyphs">type: </text>
+<text x="308" y="117.5" xml:space="preserve" fill="#f7768e" textLength="25.2" lengthAdjust="spacingAndGlyphs">APP</text>
+<text x="14" y="135.5" xml:space="preserve" fill="#c0caf5" textLength="840" lengthAdjust="spacingAndGlyphs">    A location-based platform connecting customers with laborers, featuring real-time chat via SSE  </text>
+<text x="14" y="153.5" xml:space="preserve" fill="#c0caf5" textLength="840" lengthAdjust="spacingAndGlyphs">    and geospatial queries.                                                                         </text>
+<text x="47.6" y="171.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="64.4" y="171.5" xml:space="preserve" fill="#9ece6a" textLength="75.6" lengthAdjust="spacingAndGlyphs">Next.js  </text>
+<text x="140" y="171.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="156.8" y="171.5" xml:space="preserve" fill="#9ece6a" textLength="75.6" lengthAdjust="spacingAndGlyphs">Nest.js  </text>
+<text x="232.4" y="171.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="249.2" y="171.5" xml:space="preserve" fill="#9ece6a" textLength="75.6" lengthAdjust="spacingAndGlyphs">MongoDB  </text>
+<text x="324.8" y="171.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="341.6" y="171.5" xml:space="preserve" fill="#9ece6a" textLength="67.2" lengthAdjust="spacingAndGlyphs">Python  </text>
+<text x="408.8" y="171.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="425.6" y="171.5" xml:space="preserve" fill="#9ece6a" textLength="42" lengthAdjust="spacingAndGlyphs">AWS  </text>
+<text x="467.6" y="171.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="484.4" y="171.5" xml:space="preserve" fill="#9ece6a" textLength="67.2" lengthAdjust="spacingAndGlyphs">PayPal  </text>
+<text x="47.6" y="189.5" xml:space="preserve" fill="#a9b1d6" textLength="302.4" lengthAdjust="spacingAndGlyphs">https://github.com/DFanso/QuickQuest</text>
+<text x="14" y="225.5" xml:space="preserve" fill="#a9b1d6" textLength="33.6" lengthAdjust="spacingAndGlyphs">├─▶ </text>
+<text x="47.6" y="225.5" xml:space="preserve" fill="#e0af68" textLength="33.6" lengthAdjust="spacingAndGlyphs">cat </text>
+<text x="81.2" y="225.5" xml:space="preserve" fill="#7aa2f7" textLength="176.4" lengthAdjust="spacingAndGlyphs">projects/rss-reader/ </text>
+<text x="257.6" y="225.5" xml:space="preserve" fill="#a9b1d6" textLength="50.4" lengthAdjust="spacingAndGlyphs">type: </text>
+<text x="308" y="225.5" xml:space="preserve" fill="#f7768e" textLength="25.2" lengthAdjust="spacingAndGlyphs">APP</text>
+<text x="14" y="243.5" xml:space="preserve" fill="#c0caf5" textLength="840" lengthAdjust="spacingAndGlyphs">    A simple, modern RSS reader and generator built with Go and HTMX, featuring persistent storage  </text>
+<text x="14" y="261.5" xml:space="preserve" fill="#c0caf5" textLength="840" lengthAdjust="spacingAndGlyphs">    and a clean UI.                                                                                 </text>
+<text x="47.6" y="279.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="64.4" y="279.5" xml:space="preserve" fill="#9ece6a" textLength="33.6" lengthAdjust="spacingAndGlyphs">Go  </text>
+<text x="98" y="279.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="114.8" y="279.5" xml:space="preserve" fill="#9ece6a" textLength="50.4" lengthAdjust="spacingAndGlyphs">HTMX  </text>
+<text x="165.2" y="279.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="182" y="279.5" xml:space="preserve" fill="#9ece6a" textLength="109.2" lengthAdjust="spacingAndGlyphs">TailwindCSS  </text>
+<text x="47.6" y="297.5" xml:space="preserve" fill="#a9b1d6" textLength="243.6" lengthAdjust="spacingAndGlyphs">https://github.com/DFanso/rss</text>
+<text x="14" y="333.5" xml:space="preserve" fill="#a9b1d6" textLength="33.6" lengthAdjust="spacingAndGlyphs">├─▶ </text>
+<text x="47.6" y="333.5" xml:space="preserve" fill="#e0af68" textLength="33.6" lengthAdjust="spacingAndGlyphs">cat </text>
+<text x="81.2" y="333.5" xml:space="preserve" fill="#7aa2f7" textLength="176.4" lengthAdjust="spacingAndGlyphs">projects/commit-msg/ </text>
+<text x="257.6" y="333.5" xml:space="preserve" fill="#a9b1d6" textLength="50.4" lengthAdjust="spacingAndGlyphs">type: </text>
+<text x="308" y="333.5" xml:space="preserve" fill="#f7768e" textLength="25.2" lengthAdjust="spacingAndGlyphs">CLI</text>
+<text x="14" y="351.5" xml:space="preserve" fill="#c0caf5" textLength="840" lengthAdjust="spacingAndGlyphs">    AI-powered CLI tool that generates conventional commit messages using various LLMs including    </text>
+<text x="14" y="369.5" xml:space="preserve" fill="#c0caf5" textLength="840" lengthAdjust="spacingAndGlyphs">    Gemini, Grok, and OpenAI.                                                                       </text>
+<text x="47.6" y="387.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="64.4" y="387.5" xml:space="preserve" fill="#9ece6a" textLength="33.6" lengthAdjust="spacingAndGlyphs">Go  </text>
+<text x="98" y="387.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="114.8" y="387.5" xml:space="preserve" fill="#9ece6a" textLength="50.4" lengthAdjust="spacingAndGlyphs">LLMs  </text>
+<text x="47.6" y="405.5" xml:space="preserve" fill="#a9b1d6" textLength="302.4" lengthAdjust="spacingAndGlyphs">https://github.com/DFanso/commit-msg</text>
+<text x="14" y="441.5" xml:space="preserve" fill="#a9b1d6" textLength="33.6" lengthAdjust="spacingAndGlyphs">└─▶ </text>
+<text x="47.6" y="441.5" xml:space="preserve" fill="#e0af68" textLength="33.6" lengthAdjust="spacingAndGlyphs">cat </text>
+<text x="81.2" y="441.5" xml:space="preserve" fill="#7aa2f7" textLength="201.6" lengthAdjust="spacingAndGlyphs">projects/aws-ecs-infra/ </text>
+<text x="282.8" y="441.5" xml:space="preserve" fill="#a9b1d6" textLength="50.4" lengthAdjust="spacingAndGlyphs">type: </text>
+<text x="333.2" y="441.5" xml:space="preserve" fill="#f7768e" textLength="25.2" lengthAdjust="spacingAndGlyphs">OPS</text>
+<text x="14" y="459.5" xml:space="preserve" fill="#c0caf5" textLength="840" lengthAdjust="spacingAndGlyphs">    Infrastructure as Code configurations for deploying scalable applications on AWS ECS using      </text>
+<text x="14" y="477.5" xml:space="preserve" fill="#c0caf5" textLength="840" lengthAdjust="spacingAndGlyphs">    Terraform.                                                                                      </text>
+<text x="47.6" y="495.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="64.4" y="495.5" xml:space="preserve" fill="#9ece6a" textLength="92.4" lengthAdjust="spacingAndGlyphs">Terraform  </text>
+<text x="156.8" y="495.5" xml:space="preserve" fill="#a9b1d6" textLength="16.8" lengthAdjust="spacingAndGlyphs">│ </text>
+<text x="173.6" y="495.5" xml:space="preserve" fill="#9ece6a" textLength="42" lengthAdjust="spacingAndGlyphs">AWS  </text>
+<text x="47.6" y="513.5" xml:space="preserve" fill="#a9b1d6" textLength="403.2" lengthAdjust="spacingAndGlyphs">https://github.com/DFanso/aws-ecs-infrastructure</text>
+<text x="14" y="549.5" xml:space="preserve" fill="#9ece6a" textLength="16.8" lengthAdjust="spacingAndGlyphs">❯ </text>
+<text x="30.8" y="549.5" xml:space="preserve" fill="#c0caf5" textLength="310.8" lengthAdjust="spacingAndGlyphs">Would you like to see more projects? </text>
+<text x="341.6" y="549.5" xml:space="preserve" fill="#a9b1d6" textLength="50.4" lengthAdjust="spacingAndGlyphs">(y/n) </text>
+<rect x="392" y="536" width="8.4" height="18" fill="#c0caf5"/>
+</svg>

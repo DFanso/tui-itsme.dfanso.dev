@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="868" height="640" viewBox="0 0 868 640" font-family="'JetBrains Mono','Cascadia Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="14">
+<rect width="100%" height="100%" rx="8" fill="#1a1b26"/>
+<text x="22.4" y="27.5" xml:space="preserve" fill="#f7768e" textLength="16.8" lengthAdjust="spacingAndGlyphs">● </text>
+<text x="39.2" y="27.5" xml:space="preserve" fill="#e0af68" textLength="16.8" lengthAdjust="spacingAndGlyphs">● </text>
+<text x="56" y="27.5" xml:space="preserve" fill="#9ece6a" textLength="8.4" lengthAdjust="spacingAndGlyphs">●</text>
+<text x="64.4" y="27.5" xml:space="preserve" fill="#c0caf5" textLength="739.2" lengthAdjust="spacingAndGlyphs">                                   guest@dfanso.dev:~                                   </text>
+<text x="803.6" y="27.5" xml:space="preserve" fill="#a9b1d6" textLength="42" lengthAdjust="spacingAndGlyphs">21:56</text>
+<text x="14" y="45.5" xml:space="preserve" fill="#a9b1d6" textLength="840" lengthAdjust="spacingAndGlyphs">────────────────────────────────────────────────────────────────────────────────────────────────────</text>
+<text x="14" y="63.5" xml:space="preserve" fill="#bb9af7" font-weight="bold" textLength="840" lengthAdjust="spacingAndGlyphs">Terminal Portfolio Help                                                                             </text>
+<text x="14" y="99.5" xml:space="preserve" fill="#7aa2f7" textLength="840" lengthAdjust="spacingAndGlyphs">USAGE:                                                                                              </text>
+<text x="14" y="117.5" xml:space="preserve" fill="#c0caf5" textLength="840" lengthAdjust="spacingAndGlyphs">    command [arguments]                                                                             </text>
+<text x="47.6" y="135.5" xml:space="preserve" fill="#a9b1d6" textLength="344.4" lengthAdjust="spacingAndGlyphs">Tip: press Tab to autocomplete a command.</text>
+<text x="14" y="171.5" xml:space="preserve" fill="#7aa2f7" textLength="840" lengthAdjust="spacingAndGlyphs">AVAILABLE COMMANDS:                                                                                 </text>
+<text x="47.6" y="189.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">ls              </text>
+<text x="182" y="189.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">List available sections and commands                                            </text>
+<text x="47.6" y="207.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">welcome         </text>
+<text x="182" y="207.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">Display welcome message and ASCII art                                           </text>
+<text x="47.6" y="225.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">whoami          </text>
+<text x="182" y="225.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">Show detailed profile information                                               </text>
+<text x="47.6" y="243.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">about           </text>
+<text x="182" y="243.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">View my professional summary                                                    </text>
+<text x="47.6" y="261.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">projects        </text>
+<text x="182" y="261.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">Browse my featured projects                                                     </text>
+<text x="47.6" y="279.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">skills          </text>
+<text x="182" y="279.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">List technical skills and expertise                                             </text>
+<text x="47.6" y="297.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">experience      </text>
+<text x="182" y="297.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">View work history and roles                                                     </text>
+<text x="47.6" y="315.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">education       </text>
+<text x="182" y="315.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">View academic background                                                        </text>
+<text x="47.6" y="333.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">certifications  </text>
+<text x="182" y="333.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">View professional certificates                                                  </text>
+<text x="47.6" y="351.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">contact         </text>
+<text x="182" y="351.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">Get my contact information                                                      </text>
+<text x="47.6" y="369.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">clear           </text>
+<text x="182" y="369.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">Clear terminal screen                                                           </text>
+<text x="47.6" y="387.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">help            </text>
+<text x="182" y="387.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">Show this help message                                                          </text>
+<text x="47.6" y="405.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">neofetch        </text>
+<text x="182" y="405.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">Display system information                                                      </text>
+<text x="47.6" y="423.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">time            </text>
+<text x="182" y="423.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">Show current time                                                               </text>
+<text x="47.6" y="441.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">weather         </text>
+<text x="182" y="441.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">Check the weather (sort of)                                                     </text>
+<text x="47.6" y="459.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">matrix          </text>
+<text x="182" y="459.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">Full-screen matrix rain simulation                                              </text>
+<text x="47.6" y="477.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">hack            </text>
+<text x="182" y="477.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">Initiate a totally real hacking sequence 😈                                     </text>
+<text x="47.6" y="495.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">ping            </text>
+<text x="182" y="495.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">Test connection to dfanso.dev                                                   </text>
+<text x="47.6" y="513.5" xml:space="preserve" fill="#e0af68" textLength="134.4" lengthAdjust="spacingAndGlyphs">github          </text>
+<text x="182" y="513.5" xml:space="preserve" fill="#c0caf5" textLength="672" lengthAdjust="spacingAndGlyphs">Show GitHub stats and contributions                                             </text>
+<text x="14" y="549.5" xml:space="preserve" fill="#a9b1d6" textLength="840" lengthAdjust="spacingAndGlyphs">Use arrow keys ↑↓ to navigate command history                                                       </text>
+<text x="14" y="567.5" xml:space="preserve" fill="#a9b1d6" textLength="840" lengthAdjust="spacingAndGlyphs">Press Ctrl+L or type 'clear' to clear screen                                                        </text>
+<text x="14" y="585.5" xml:space="preserve" fill="#a9b1d6" textLength="840" lengthAdjust="spacingAndGlyphs">Press Ctrl+C or Ctrl+D to exit                                                                      </text>
+<text x="14" y="621.5" xml:space="preserve" fill="#9ece6a" textLength="16.8" lengthAdjust="spacingAndGlyphs">❯ </text>
+<text x="30.8" y="621.5" xml:space="preserve" fill="#7aa2f7" textLength="50.4" lengthAdjust="spacingAndGlyphs">dfanso</text>
+<text x="81.2" y="621.5" xml:space="preserve" fill="#a9b1d6" textLength="8.4" lengthAdjust="spacingAndGlyphs">@</text>
+<text x="89.6" y="621.5" xml:space="preserve" fill="#bb9af7" textLength="67.2" lengthAdjust="spacingAndGlyphs">terminal</text>
+<text x="156.8" y="621.5" xml:space="preserve" fill="#a9b1d6" textLength="33.6" lengthAdjust="spacingAndGlyphs"> in </text>
+<text x="190.4" y="621.5" xml:space="preserve" fill="#e0af68" textLength="92.4" lengthAdjust="spacingAndGlyphs">~/portfolio</text>
+<text x="282.8" y="621.5" xml:space="preserve" fill="#a9b1d6" textLength="33.6" lengthAdjust="spacingAndGlyphs"> on </text>
+<text x="316.4" y="621.5" xml:space="preserve" fill="#f7768e" textLength="42" lengthAdjust="spacingAndGlyphs">main </text>
+<rect x="358.4" y="608" width="8.4" height="18" fill="#c0caf5"/>
+</svg>

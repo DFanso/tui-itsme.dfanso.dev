@@ -5,6 +5,25 @@ portfolio, written in C++17 with [FTXUI](https://github.com/ArthurSonzogni/FTXUI
 
 Same commands, same Tokyo Night colours, same easter eggs — in your own terminal.
 
+## Screenshots
+
+<p align="center"><img src="docs/screenshots/startup.svg" alt="Startup: banner, greeting and prompt" width="900"></p>
+
+| `help` | `projects` |
+|---|---|
+| ![help](docs/screenshots/help.svg) | ![projects](docs/screenshots/projects.svg) |
+
+| `github` (with `GITHUB_TOKEN`) | `experience` |
+|---|---|
+| ![github](docs/screenshots/github.svg) | ![experience](docs/screenshots/experience.svg) |
+
+| `hack` | `matrix` |
+|---|---|
+| ![hack](docs/screenshots/hack.svg) | ![matrix](docs/screenshots/matrix.svg) |
+
+Screenshots are rendered from the app itself by `tools/screenshots.cpp`
+(`cmake --preset default -DITSME_BUILD_TOOLS=ON`, then `build/default/itsme_screenshots docs/screenshots`).
+
 ## Run
 
 Download a binary from the Releases page, or build from source (below), then:

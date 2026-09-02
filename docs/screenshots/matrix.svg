@@ -1,0 +1,467 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="868" height="460" viewBox="0 0 868 460" font-family="'JetBrains Mono','Cascadia Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="14">
+<rect width="100%" height="100%" rx="8" fill="#1a1b26"/>
+<text x="47.6" y="27.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">3</text>
+<text x="156.8" y="27.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">#</text>
+<text x="182" y="27.5" xml:space="preserve" fill="#005a15" textLength="16.8" lengthAdjust="spacingAndGlyphs">ｧﾑ</text>
+<text x="266" y="27.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾇ</text>
+<text x="308" y="27.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">E</text>
+<text x="366.8" y="27.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">^</text>
+<text x="392" y="27.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾒ</text>
+<text x="408.8" y="27.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">$</text>
+<text x="543.2" y="27.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">2</text>
+<text x="560" y="27.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾗ</text>
+<text x="627.2" y="27.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">D</text>
+<text x="644" y="27.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｼ</text>
+<text x="660.8" y="27.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">D</text>
+<text x="686" y="27.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾝ</text>
+<text x="711.2" y="27.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｺ</text>
+<text x="770" y="27.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾔ</text>
+<text x="786.8" y="27.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｮ</text>
+<text x="828.8" y="27.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾚ</text>
+<text x="47.6" y="45.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾈ</text>
+<text x="156.8" y="45.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｵ</text>
+<text x="182" y="45.5" xml:space="preserve" fill="#005a15" textLength="16.8" lengthAdjust="spacingAndGlyphs">ﾍﾝ</text>
+<text x="249.2" y="45.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="266" y="45.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾆ</text>
+<text x="366.8" y="45.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾚ</text>
+<text x="392" y="45.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">7</text>
+<text x="408.8" y="45.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">*</text>
+<text x="543.2" y="45.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">3</text>
+<text x="560" y="45.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">&amp;</text>
+<text x="576.8" y="45.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｹ</text>
+<text x="627.2" y="45.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾀ</text>
+<text x="644" y="45.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｸ</text>
+<text x="660.8" y="45.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｱ</text>
+<text x="686" y="45.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾔ</text>
+<text x="711.2" y="45.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾑ</text>
+<text x="770" y="45.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">A</text>
+<text x="786.8" y="45.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾌ</text>
+<text x="828.8" y="45.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾃ</text>
+<text x="47.6" y="63.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｧ</text>
+<text x="182" y="63.5" xml:space="preserve" fill="#00aa28" textLength="16.8" lengthAdjust="spacingAndGlyphs">^ﾌ</text>
+<text x="249.2" y="63.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">&amp;</text>
+<text x="266" y="63.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="366.8" y="63.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｦ</text>
+<text x="392" y="63.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾄ</text>
+<text x="408.8" y="63.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾗ</text>
+<text x="576.8" y="63.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾚ</text>
+<text x="627.2" y="63.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾔ</text>
+<text x="644" y="63.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｰ</text>
+<text x="660.8" y="63.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾐ</text>
+<text x="686" y="63.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｯ</text>
+<text x="711.2" y="63.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｯ</text>
+<text x="744.8" y="63.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾛ</text>
+<text x="770" y="63.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾖ</text>
+<text x="786.8" y="63.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｬ</text>
+<text x="828.8" y="63.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｧ</text>
+<text x="47.6" y="81.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｾ</text>
+<text x="182" y="81.5" xml:space="preserve" fill="#00aa28" textLength="16.8" lengthAdjust="spacingAndGlyphs">ｱﾇ</text>
+<text x="249.2" y="81.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾜ</text>
+<text x="266" y="81.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｷ</text>
+<text x="274.4" y="81.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">E</text>
+<text x="366.8" y="81.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾚ</text>
+<text x="392" y="81.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾙ</text>
+<text x="408.8" y="81.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">&amp;</text>
+<text x="576.8" y="81.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">E</text>
+<text x="627.2" y="81.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">@</text>
+<text x="644" y="81.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾛ</text>
+<text x="660.8" y="81.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｧ</text>
+<text x="686" y="81.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">B</text>
+<text x="711.2" y="81.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="744.8" y="81.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾈ</text>
+<text x="770" y="81.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾝ</text>
+<text x="786.8" y="81.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｧ</text>
+<text x="828.8" y="81.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾕ</text>
+<text x="39.2" y="99.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾆ</text>
+<text x="148.4" y="99.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">%</text>
+<text x="182" y="99.5" xml:space="preserve" fill="#00aa28" textLength="16.8" lengthAdjust="spacingAndGlyphs">ﾌｸ</text>
+<text x="240.8" y="99.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｽ</text>
+<text x="249.2" y="99.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">6</text>
+<text x="266" y="99.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾈ</text>
+<text x="274.4" y="99.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾏ</text>
+<text x="366.8" y="99.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｨ</text>
+<text x="392" y="99.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｼ</text>
+<text x="408.8" y="99.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">B</text>
+<text x="576.8" y="99.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｯ</text>
+<text x="627.2" y="99.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｲ</text>
+<text x="660.8" y="99.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｦ</text>
+<text x="686" y="99.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾄ</text>
+<text x="711.2" y="99.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">A</text>
+<text x="744.8" y="99.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">8</text>
+<text x="786.8" y="99.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾌ</text>
+<text x="828.8" y="99.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｲ</text>
+<text x="39.2" y="117.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾊ</text>
+<text x="148.4" y="117.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾂ</text>
+<text x="182" y="117.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｿ</text>
+<text x="190.4" y="117.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｲ</text>
+<text x="240.8" y="117.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｶ</text>
+<text x="249.2" y="117.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾈ</text>
+<text x="266" y="117.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｮ</text>
+<text x="274.4" y="117.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">7</text>
+<text x="366.8" y="117.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">C</text>
+<text x="392" y="117.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｵ</text>
+<text x="408.8" y="117.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｷ</text>
+<text x="576.8" y="117.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾈ</text>
+<text x="618.8" y="117.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">*</text>
+<text x="627.2" y="117.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾂ</text>
+<text x="660.8" y="117.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｵ</text>
+<text x="686" y="117.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾀ</text>
+<text x="711.2" y="117.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｦ</text>
+<text x="744.8" y="117.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｷ</text>
+<text x="786.8" y="117.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｵ</text>
+<text x="828.8" y="117.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">D</text>
+<text x="39.2" y="135.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｧ</text>
+<text x="148.4" y="135.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｫ</text>
+<text x="182" y="135.5" xml:space="preserve" fill="#00ff41" textLength="16.8" lengthAdjust="spacingAndGlyphs">ﾝｲ</text>
+<text x="240.8" y="135.5" xml:space="preserve" fill="#00aa28" textLength="16.8" lengthAdjust="spacingAndGlyphs">ﾈ3</text>
+<text x="274.4" y="135.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｳ</text>
+<text x="366.8" y="135.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="392" y="135.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｳ</text>
+<text x="408.8" y="135.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="576.8" y="135.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｱ</text>
+<text x="602" y="135.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｲ</text>
+<text x="618.8" y="135.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾜ</text>
+<text x="627.2" y="135.5" xml:space="preserve" fill="#005a15" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾖ</text>
+<text x="652.4" y="135.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾏ</text>
+<text x="660.8" y="135.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">C</text>
+<text x="686" y="135.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｹ</text>
+<text x="711.2" y="135.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">7</text>
+<text x="719.6" y="135.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾑ</text>
+<text x="744.8" y="135.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾊ</text>
+<text x="786.8" y="135.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｾ</text>
+<text x="828.8" y="135.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾛ</text>
+<text x="39.2" y="153.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾎ</text>
+<text x="148.4" y="153.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｻ</text>
+<text x="182" y="153.5" xml:space="preserve" fill="#00ff41" textLength="16.8" lengthAdjust="spacingAndGlyphs">ｱ5</text>
+<text x="240.8" y="153.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">F</text>
+<text x="249.2" y="153.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾂ</text>
+<text x="274.4" y="153.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｰ</text>
+<text x="366.8" y="153.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾓ</text>
+<text x="375.2" y="153.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｳ</text>
+<text x="392" y="153.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｬ</text>
+<text x="408.8" y="153.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">D</text>
+<text x="602" y="153.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｳ</text>
+<text x="618.8" y="153.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｮ</text>
+<text x="652.4" y="153.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾙ</text>
+<text x="660.8" y="153.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾒ</text>
+<text x="686" y="153.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾒ</text>
+<text x="719.6" y="153.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾁ</text>
+<text x="795.2" y="153.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾔ</text>
+<text x="828.8" y="153.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｰ</text>
+<text x="39.2" y="171.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｦ</text>
+<text x="148.4" y="171.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="182" y="171.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="16.8" lengthAdjust="spacingAndGlyphs">ﾑE</text>
+<text x="207.2" y="171.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾈ</text>
+<text x="240.8" y="171.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾚ</text>
+<text x="249.2" y="171.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾎ</text>
+<text x="274.4" y="171.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾗ</text>
+<text x="358.4" y="171.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾔ</text>
+<text x="375.2" y="171.5" xml:space="preserve" fill="#005a15" textLength="16.8" lengthAdjust="spacingAndGlyphs">ﾊﾝ</text>
+<text x="392" y="171.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾔ</text>
+<text x="551.6" y="171.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">D</text>
+<text x="602" y="171.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾌ</text>
+<text x="618.8" y="171.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">@</text>
+<text x="652.4" y="171.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｹ</text>
+<text x="660.8" y="171.5" xml:space="preserve" fill="#005a15" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾐ</text>
+<text x="686" y="171.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾝ</text>
+<text x="702.8" y="171.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｧ</text>
+<text x="719.6" y="171.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｩ</text>
+<text x="795.2" y="171.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">5</text>
+<text x="828.8" y="171.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｬ</text>
+<text x="39.2" y="189.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">A</text>
+<text x="148.4" y="189.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾔ</text>
+<text x="207.2" y="189.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｿ</text>
+<text x="240.8" y="189.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｷ</text>
+<text x="249.2" y="189.5" xml:space="preserve" fill="#00ff41" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾚ</text>
+<text x="274.4" y="189.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾓ</text>
+<text x="358.4" y="189.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｯ</text>
+<text x="375.2" y="189.5" xml:space="preserve" fill="#005a15" textLength="16.8" lengthAdjust="spacingAndGlyphs">$ｷ</text>
+<text x="392" y="189.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｮ</text>
+<text x="551.6" y="189.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">^</text>
+<text x="602" y="189.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾈ</text>
+<text x="618.8" y="189.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">&amp;</text>
+<text x="652.4" y="189.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">%</text>
+<text x="677.6" y="189.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">$</text>
+<text x="686" y="189.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">!</text>
+<text x="702.8" y="189.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｸ</text>
+<text x="719.6" y="189.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾝ</text>
+<text x="795.2" y="189.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｷ</text>
+<text x="837.2" y="189.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｪ</text>
+<text x="39.2" y="207.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾚ</text>
+<text x="114.8" y="207.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">#</text>
+<text x="140" y="207.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">6</text>
+<text x="148.4" y="207.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾚ</text>
+<text x="207.2" y="207.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾔ</text>
+<text x="240.8" y="207.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｻ</text>
+<text x="274.4" y="207.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｪ</text>
+<text x="358.4" y="207.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">$</text>
+<text x="375.2" y="207.5" xml:space="preserve" fill="#005a15" textLength="16.8" lengthAdjust="spacingAndGlyphs">ｬｺ</text>
+<text x="392" y="207.5" xml:space="preserve" fill="#005a15" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾑ</text>
+<text x="551.6" y="207.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">B</text>
+<text x="602" y="207.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｼ</text>
+<text x="652.4" y="207.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｧ</text>
+<text x="677.6" y="207.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｹ</text>
+<text x="686" y="207.5" xml:space="preserve" fill="#005a15" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｬ</text>
+<text x="702.8" y="207.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">9</text>
+<text x="719.6" y="207.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">8</text>
+<text x="795.2" y="207.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">0</text>
+<text x="837.2" y="207.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾘ</text>
+<text x="39.2" y="225.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｷ</text>
+<text x="114.8" y="225.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾔ</text>
+<text x="140" y="225.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｿ</text>
+<text x="148.4" y="225.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｦ</text>
+<text x="207.2" y="225.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｫ</text>
+<text x="240.8" y="225.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾑ</text>
+<text x="274.4" y="225.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾉ</text>
+<text x="358.4" y="225.5" xml:space="preserve" fill="#00ff41" font-weight="bold" textLength="142.8" lengthAdjust="spacingAndGlyphs"> Wake up, Neo... </text>
+<text x="551.6" y="225.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">6</text>
+<text x="652.4" y="225.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾂ</text>
+<text x="677.6" y="225.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾍ</text>
+<text x="702.8" y="225.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｯ</text>
+<text x="719.6" y="225.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">D</text>
+<text x="795.2" y="225.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="837.2" y="225.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｵ</text>
+<text x="39.2" y="243.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｨ</text>
+<text x="114.8" y="243.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｻ</text>
+<text x="140" y="243.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｮ</text>
+<text x="148.4" y="243.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">&amp;</text>
+<text x="207.2" y="243.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾚ</text>
+<text x="257.6" y="243.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｨ</text>
+<text x="274.4" y="243.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｶ</text>
+<text x="299.6" y="243.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾄ</text>
+<text x="350" y="243.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｧ</text>
+<text x="358.4" y="243.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾉ</text>
+<text x="375.2" y="243.5" xml:space="preserve" fill="#00aa28" textLength="16.8" lengthAdjust="spacingAndGlyphs">ｬ$</text>
+<text x="467.6" y="243.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">8</text>
+<text x="551.6" y="243.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾘ</text>
+<text x="652.4" y="243.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾜ</text>
+<text x="677.6" y="243.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｺ</text>
+<text x="702.8" y="243.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｵ</text>
+<text x="719.6" y="243.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">@</text>
+<text x="795.2" y="243.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｾ</text>
+<text x="837.2" y="243.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｷ</text>
+<text x="89.6" y="261.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾋ</text>
+<text x="114.8" y="261.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾊ</text>
+<text x="140" y="261.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="148.4" y="261.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｵ</text>
+<text x="207.2" y="261.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾕ</text>
+<text x="257.6" y="261.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">5</text>
+<text x="274.4" y="261.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｮ</text>
+<text x="299.6" y="261.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">0</text>
+<text x="350" y="261.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾇ</text>
+<text x="358.4" y="261.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾒ</text>
+<text x="375.2" y="261.5" xml:space="preserve" fill="#00aa28" textLength="16.8" lengthAdjust="spacingAndGlyphs">ﾔﾆ</text>
+<text x="434" y="261.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾈ</text>
+<text x="467.6" y="261.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｶ</text>
+<text x="652.4" y="261.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｻ</text>
+<text x="677.6" y="261.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｴ</text>
+<text x="702.8" y="261.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｷ</text>
+<text x="719.6" y="261.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾏ</text>
+<text x="795.2" y="261.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾃ</text>
+<text x="837.2" y="261.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾜ</text>
+<text x="89.6" y="279.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">@</text>
+<text x="114.8" y="279.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｵ</text>
+<text x="140" y="279.5" xml:space="preserve" fill="#00ff41" textLength="16.8" lengthAdjust="spacingAndGlyphs">ﾁ8</text>
+<text x="207.2" y="279.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｶ</text>
+<text x="257.6" y="279.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾑ</text>
+<text x="274.4" y="279.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾑ</text>
+<text x="299.6" y="279.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾄ</text>
+<text x="350" y="279.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">!</text>
+<text x="358.4" y="279.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｻ</text>
+<text x="375.2" y="279.5" xml:space="preserve" fill="#00aa28" textLength="16.8" lengthAdjust="spacingAndGlyphs">ﾆﾈ</text>
+<text x="434" y="279.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｳ</text>
+<text x="467.6" y="279.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="652.4" y="279.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾃ</text>
+<text x="677.6" y="279.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">8</text>
+<text x="702.8" y="279.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">F</text>
+<text x="719.6" y="279.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾘ</text>
+<text x="736.4" y="279.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾙ</text>
+<text x="795.2" y="279.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｻ</text>
+<text x="837.2" y="279.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾖ</text>
+<text x="64.4" y="297.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｩ</text>
+<text x="81.2" y="297.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">*</text>
+<text x="89.6" y="297.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">&amp;</text>
+<text x="114.8" y="297.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">#</text>
+<text x="140" y="297.5" xml:space="preserve" fill="#00ff41" textLength="16.8" lengthAdjust="spacingAndGlyphs">ﾊﾅ</text>
+<text x="207.2" y="297.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾐ</text>
+<text x="257.6" y="297.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾋ</text>
+<text x="274.4" y="297.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｶ</text>
+<text x="299.6" y="297.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｰ</text>
+<text x="350" y="297.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="358.4" y="297.5" xml:space="preserve" fill="#00aa28" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｾ</text>
+<text x="375.2" y="297.5" xml:space="preserve" fill="#00ff41" textLength="16.8" lengthAdjust="spacingAndGlyphs">ｫﾝ</text>
+<text x="434" y="297.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾘ</text>
+<text x="467.6" y="297.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾈ</text>
+<text x="652.4" y="297.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｵ</text>
+<text x="677.6" y="297.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｰ</text>
+<text x="702.8" y="297.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">3</text>
+<text x="719.6" y="297.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾔ</text>
+<text x="736.4" y="297.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾏ</text>
+<text x="795.2" y="297.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｽ</text>
+<text x="837.2" y="297.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾆ</text>
+<text x="64.4" y="315.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">&amp;</text>
+<text x="81.2" y="315.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｳ</text>
+<text x="89.6" y="315.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">$</text>
+<text x="114.8" y="315.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｧ</text>
+<text x="140" y="315.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="16.8" lengthAdjust="spacingAndGlyphs">Dﾅ</text>
+<text x="207.2" y="315.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">!</text>
+<text x="224" y="315.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｹ</text>
+<text x="299.6" y="315.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾏ</text>
+<text x="350" y="315.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">5</text>
+<text x="375.2" y="315.5" xml:space="preserve" fill="#00ff41" textLength="16.8" lengthAdjust="spacingAndGlyphs">ｳｫ</text>
+<text x="434" y="315.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｬ</text>
+<text x="467.6" y="315.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾀ</text>
+<text x="484.4" y="315.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">%</text>
+<text x="518" y="315.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">C</text>
+<text x="652.4" y="315.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｵ</text>
+<text x="702.8" y="315.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾉ</text>
+<text x="719.6" y="315.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾈ</text>
+<text x="736.4" y="315.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">E</text>
+<text x="795.2" y="315.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">6</text>
+<text x="14" y="333.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾘ</text>
+<text x="30.8" y="333.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｵ</text>
+<text x="64.4" y="333.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｲ</text>
+<text x="81.2" y="333.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｩ</text>
+<text x="89.6" y="333.5" xml:space="preserve" fill="#005a15" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｯ</text>
+<text x="114.8" y="333.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">8</text>
+<text x="207.2" y="333.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｷ</text>
+<text x="224" y="333.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾘ</text>
+<text x="299.6" y="333.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾆ</text>
+<text x="350" y="333.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｶ</text>
+<text x="375.2" y="333.5" xml:space="preserve" fill="#00ff41" textLength="16.8" lengthAdjust="spacingAndGlyphs">2B</text>
+<text x="467.6" y="333.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｴ</text>
+<text x="476" y="333.5" xml:space="preserve" fill="#005a15" textLength="16.8" lengthAdjust="spacingAndGlyphs">ｿｬ</text>
+<text x="518" y="333.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">D</text>
+<text x="568.4" y="333.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">9</text>
+<text x="652.4" y="333.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾂ</text>
+<text x="702.8" y="333.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">5</text>
+<text x="719.6" y="333.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="736.4" y="333.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｷ</text>
+<text x="14" y="351.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｬ</text>
+<text x="30.8" y="351.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｮ</text>
+<text x="64.4" y="351.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾀ</text>
+<text x="81.2" y="351.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾓ</text>
+<text x="114.8" y="351.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｿ</text>
+<text x="207.2" y="351.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｵ</text>
+<text x="224" y="351.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾓ</text>
+<text x="299.6" y="351.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾅ</text>
+<text x="350" y="351.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾀ</text>
+<text x="375.2" y="351.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="16.8" lengthAdjust="spacingAndGlyphs">ﾀ2</text>
+<text x="467.6" y="351.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">E</text>
+<text x="476" y="351.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">^</text>
+<text x="484.4" y="351.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">6</text>
+<text x="492.8" y="351.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾀ</text>
+<text x="518" y="351.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="568.4" y="351.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｧ</text>
+<text x="702.8" y="351.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾋ</text>
+<text x="736.4" y="351.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾚ</text>
+<text x="753.2" y="351.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">&amp;</text>
+<text x="14" y="369.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">!</text>
+<text x="30.8" y="369.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾒ</text>
+<text x="64.4" y="369.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾐ</text>
+<text x="81.2" y="369.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾚ</text>
+<text x="114.8" y="369.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">7</text>
+<text x="198.8" y="369.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾘ</text>
+<text x="207.2" y="369.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">F</text>
+<text x="224" y="369.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｼ</text>
+<text x="299.6" y="369.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">5</text>
+<text x="442.4" y="369.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">!</text>
+<text x="467.6" y="369.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｿ</text>
+<text x="476" y="369.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｧ</text>
+<text x="484.4" y="369.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾇ</text>
+<text x="492.8" y="369.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">#</text>
+<text x="518" y="369.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">!</text>
+<text x="568.4" y="369.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾏ</text>
+<text x="593.6" y="369.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="702.8" y="369.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">@</text>
+<text x="736.4" y="369.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾄ</text>
+<text x="753.2" y="369.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾕ</text>
+<text x="778.4" y="369.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾘ</text>
+<text x="14" y="387.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">!</text>
+<text x="30.8" y="387.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｴ</text>
+<text x="64.4" y="387.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾏ</text>
+<text x="81.2" y="387.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">2</text>
+<text x="114.8" y="387.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">^</text>
+<text x="198.8" y="387.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｽ</text>
+<text x="207.2" y="387.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｹ</text>
+<text x="224" y="387.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾑ</text>
+<text x="299.6" y="387.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｿ</text>
+<text x="442.4" y="387.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｪ</text>
+<text x="459.2" y="387.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｾ</text>
+<text x="476" y="387.5" xml:space="preserve" fill="#00aa28" textLength="16.8" lengthAdjust="spacingAndGlyphs">ﾈ0</text>
+<text x="492.8" y="387.5" xml:space="preserve" fill="#005a15" textLength="16.8" lengthAdjust="spacingAndGlyphs">&amp;ﾅ</text>
+<text x="518" y="387.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾜ</text>
+<text x="568.4" y="387.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾃ</text>
+<text x="593.6" y="387.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">B</text>
+<text x="610.4" y="387.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾚ</text>
+<text x="702.8" y="387.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｨ</text>
+<text x="728" y="387.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">D</text>
+<text x="736.4" y="387.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">5</text>
+<text x="753.2" y="387.5" xml:space="preserve" fill="#005a15" textLength="16.8" lengthAdjust="spacingAndGlyphs">ﾗｺ</text>
+<text x="778.4" y="387.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾊ</text>
+<text x="30.8" y="405.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾑ</text>
+<text x="64.4" y="405.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾇ</text>
+<text x="81.2" y="405.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾕ</text>
+<text x="106.4" y="405.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾔ</text>
+<text x="114.8" y="405.5" xml:space="preserve" fill="#005a15" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｿ</text>
+<text x="198.8" y="405.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｬ</text>
+<text x="207.2" y="405.5" xml:space="preserve" fill="#00aa28" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾘ</text>
+<text x="224" y="405.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾑ</text>
+<text x="282.8" y="405.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">F</text>
+<text x="299.6" y="405.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">8</text>
+<text x="442.4" y="405.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾊ</text>
+<text x="459.2" y="405.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">@</text>
+<text x="476" y="405.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">F</text>
+<text x="484.4" y="405.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾂ</text>
+<text x="492.8" y="405.5" xml:space="preserve" fill="#005a15" textLength="16.8" lengthAdjust="spacingAndGlyphs">ｻｷ</text>
+<text x="518" y="405.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾌ</text>
+<text x="568.4" y="405.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｪ</text>
+<text x="593.6" y="405.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｮ</text>
+<text x="610.4" y="405.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾎ</text>
+<text x="728" y="405.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾝ</text>
+<text x="736.4" y="405.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾑ</text>
+<text x="753.2" y="405.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾙ</text>
+<text x="761.6" y="405.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｯ</text>
+<text x="778.4" y="405.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾓ</text>
+<text x="820.4" y="405.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾒ</text>
+<text x="30.8" y="423.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾊ</text>
+<text x="64.4" y="423.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾎ</text>
+<text x="81.2" y="423.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｻ</text>
+<text x="106.4" y="423.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾅ</text>
+<text x="198.8" y="423.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾕ</text>
+<text x="282.8" y="423.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">9</text>
+<text x="299.6" y="423.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="442.4" y="423.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｶ</text>
+<text x="459.2" y="423.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾀ</text>
+<text x="476" y="423.5" xml:space="preserve" fill="#00ff41" textLength="16.8" lengthAdjust="spacingAndGlyphs">ｺﾈ</text>
+<text x="492.8" y="423.5" xml:space="preserve" fill="#00aa28" textLength="16.8" lengthAdjust="spacingAndGlyphs">4ｸ</text>
+<text x="568.4" y="423.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｦ</text>
+<text x="593.6" y="423.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾒ</text>
+<text x="610.4" y="423.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾉ</text>
+<text x="635.6" y="423.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾐ</text>
+<text x="728" y="423.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">7</text>
+<text x="736.4" y="423.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾏ</text>
+<text x="753.2" y="423.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾌ</text>
+<text x="761.6" y="423.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｷ</text>
+<text x="778.4" y="423.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾝ</text>
+<text x="820.4" y="423.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｶ</text>
+<text x="30.8" y="441.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｧ</text>
+<text x="64.4" y="441.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｽ</text>
+<text x="72.8" y="441.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="81.2" y="441.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾈ</text>
+<text x="106.4" y="441.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾃ</text>
+<text x="282.8" y="441.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾛ</text>
+<text x="299.6" y="441.5" xml:space="preserve" fill="#005a15" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">[</text>
+<text x="308" y="441.5" xml:space="preserve" fill="#005a15" textLength="176.4" lengthAdjust="spacingAndGlyphs"> PRESS ESC OR ANY KEY</text>
+<text x="492.8" y="441.5" xml:space="preserve" fill="#005a15" textLength="75.6" lengthAdjust="spacingAndGlyphs">TO EXIT ]</text>
+<text x="568.4" y="441.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">!</text>
+<text x="593.6" y="441.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">2</text>
+<text x="610.4" y="441.5" xml:space="preserve" fill="#c0caf5" font-weight="bold" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｳ</text>
+<text x="635.6" y="441.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾖ</text>
+<text x="728" y="441.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">*</text>
+<text x="736.4" y="441.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｨ</text>
+<text x="753.2" y="441.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="761.6" y="441.5" xml:space="preserve" fill="#005a15" textLength="8.4" lengthAdjust="spacingAndGlyphs">ﾅ</text>
+<text x="778.4" y="441.5" xml:space="preserve" fill="#00ff41" textLength="8.4" lengthAdjust="spacingAndGlyphs">#</text>
+<text x="820.4" y="441.5" xml:space="preserve" fill="#00aa28" textLength="8.4" lengthAdjust="spacingAndGlyphs">ｰ</text>
+</svg>
