@@ -17,12 +17,22 @@ Element stat(long value, const char* label) {
          size(WIDTH, EQUAL, 16);
 }
 
-Color heatColor(int count) {
-  if (count <= 0) return trueColor() ? Color::RGB(0x2a, 0x2c, 0x3a) : Color::GrayDark;
-  if (count <= 2) return hexColor("#0e4429", Color::Green);
-  if (count <= 5) return hexColor("#006d32", Color::Green);
-  if (count <= 9) return hexColor("#26a641", Color::GreenLight);
-  return hexColor("#39d353", Color::GreenLight);
+// Intensity level 0-4, scaled to the busiest day like GitHub's own graph.
+int heatLevel(int count, int maxCount) {
+  if (count <= 0) return 0;
+  if (maxCount <= 0) return 4;
+  const double ratio = static_cast<double>(count) / maxCount;
+  return ratio <= 0.25 ? 1 : ratio <= 0.5 ? 2 : ratio <= 0.75 ? 3 : 4;
+}
+
+Color heatColor(int level) {
+  switch (level) {
+    case 0: return trueColor() ? Color::RGB(0x2a, 0x2c, 0x3a) : Color::GrayDark;
+    case 1: return hexColor("#0e4429", Color::Green);
+    case 2: return hexColor("#006d32", Color::Green);
+    case 3: return hexColor("#26a641", Color::GreenLight);
+    default: return hexColor("#39d353", Color::GreenLight);
+  }
 }
 
 Element languageBar(const std::vector<github::LanguageStat>& langs) {
@@ -47,6 +57,9 @@ Element languageBar(const std::vector<github::LanguageStat>& langs) {
 Element heatmap(const github::ContributionCalendar& cal, int width) {
   const int maxWeeks = std::max(0, std::min<int>(static_cast<int>(cal.weeks.size()), width - 6));
   const std::size_t first = cal.weeks.size() - static_cast<std::size_t>(maxWeeks);
+  int maxCount = 0;
+  for (const auto& week : cal.weeks)
+    for (const auto& d : week.days) maxCount = std::max(maxCount, d.count);
   Elements rows;
   for (int weekday = 0; weekday < 7; ++weekday) {
     Elements cells;
@@ -54,12 +67,12 @@ Element heatmap(const github::ContributionCalendar& cal, int width) {
       int count = -1;
       for (const auto& d : cal.weeks[w].days)
         if (d.weekday == weekday) count = d.count;
-      cells.push_back(count < 0 ? text(" ") : text("■") | color(heatColor(count)));
+      cells.push_back(count < 0 ? text(" ") : text("■") | color(heatColor(heatLevel(count, maxCount))));
     }
     rows.push_back(hbox(std::move(cells)));
   }
   Elements legend = {t("Less ", Tone::Muted)};
-  for (int c : {0, 1, 3, 6, 10}) legend.push_back(text("■") | color(heatColor(c)));
+  for (int level : {0, 1, 2, 3, 4}) legend.push_back(text("■") | color(heatColor(level)));
   legend.push_back(t(" More", Tone::Muted));
   rows.push_back(hbox(std::move(legend)));
   return vbox(std::move(rows));
