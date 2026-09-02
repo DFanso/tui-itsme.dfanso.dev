@@ -20,7 +20,7 @@ Element renderProjects(const github::ProjectStatsMap* stats) {
         const auto& s = *it->second;
         head.push_back(t("   ★ " + std::to_string(s.stars), Tone::Yellow));
         head.push_back(t("  ⑂ " + std::to_string(s.forks), Tone::Cyan));
-        head.push_back(t("  👁 " + std::to_string(s.watchers), Tone::Purple));
+        head.push_back(t("  ◉ " + std::to_string(s.watchers), Tone::Purple));  // single-width "eye"
       }
     }
     rows.push_back(hbox(std::move(head)));

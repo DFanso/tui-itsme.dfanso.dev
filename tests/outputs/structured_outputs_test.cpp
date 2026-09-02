@@ -49,7 +49,7 @@ TEST_CASE("projects with and without stats") {
   auto with = renderPlain(renderProjects(&stats), 120, 80);
   CHECK(with.find("★ 12") != std::string::npos);
   CHECK(with.find("⑂ 3") != std::string::npos);
-  CHECK(with.find("👁 4") != std::string::npos);
+  CHECK(with.find("◉ 4") != std::string::npos);
 }
 
 TEST_CASE("neofetch") {
