@@ -14,6 +14,8 @@
 #include "core/LineEditor.hpp"
 #include "core/TerminalState.hpp"
 #include "effects/Boot.hpp"
+#include "effects/Hack.hpp"
+#include "effects/Matrix.hpp"
 #include "effects/Ticker.hpp"
 #include "effects/Typewriter.hpp"
 #include "github/Client.hpp"
@@ -75,6 +77,12 @@ class App {
   std::optional<effects::BootSequence> boot_;
   std::optional<effects::Typewriter> typewriter_;  // drives the seeded welcome block (id 0)
   std::chrono::steady_clock::time_point lastTick_ = std::chrono::steady_clock::now();
+
+  enum class Overlay { None, Matrix, Hack };
+  void closeOverlay();
+  Overlay overlay_ = Overlay::None;
+  std::optional<effects::MatrixRain> matrix_;
+  std::optional<effects::HackSequence> hack_;
 };
 
 }  // namespace itsme::app

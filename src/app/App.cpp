@@ -80,6 +80,7 @@ outputs::RenderContext App::context() const {
 }
 
 bool App::animating() const {
+  if (overlay_ != Overlay::None) return true;
   if (boot_ && !boot_->done()) return true;
   if (typewriter_ && !typewriter_->done()) return true;
   for (const auto& [id, rt] : runtime_)
@@ -92,6 +93,18 @@ void App::updateTickerRate() {
 }
 
 void App::onTick(int elapsedMs) {
+  if (overlay_ == Overlay::Matrix && matrix_) {
+    const int w = screen_ ? screen_->dimx() : width_;
+    const int h = screen_ ? screen_->dimy() : 24;
+    if (w != matrix_->width() || h != matrix_->height()) matrix_->resize(w, h);
+    matrix_->advance(elapsedMs);
+    return;
+  }
+  if (overlay_ == Overlay::Hack && hack_) {
+    hack_->advance(elapsedMs);
+    if (hack_->finished()) closeOverlay();
+    return;
+  }
   if (boot_ && !boot_->done()) {
     boot_->advance(elapsedMs);
     return;
@@ -142,8 +155,24 @@ void App::startFetches(const core::Block& block) {
   }
 }
 
-void App::performAction(core::Action /*action*/, int /*blockId*/) {
-  // Matrix/Hack overlays and resume opening are wired in later tasks.
+void App::performAction(core::Action action, int /*blockId*/) {
+  const int w = screen_ ? screen_->dimx() : width_;
+  const int h = screen_ ? screen_->dimy() : 24;
+  if (action == core::Action::Matrix) {
+    matrix_.emplace(static_cast<unsigned>(rng_()));
+    matrix_->resize(w, h);
+    overlay_ = Overlay::Matrix;
+  } else if (action == core::Action::Hack) {
+    hack_.emplace();
+    overlay_ = Overlay::Hack;
+  }
+  // Resume opening is wired in a later task.
+}
+
+void App::closeOverlay() {
+  overlay_ = Overlay::None;
+  matrix_.reset();
+  hack_.reset();
 }
 
 bool App::onEvent(const Event& e) {
@@ -153,6 +182,12 @@ bool App::onEvent(const Event& e) {
         static_cast<int>(std::chrono::duration_cast<std::chrono::milliseconds>(now - lastTick_).count());
     lastTick_ = now;
     onTick(elapsed);
+    updateTickerRate();
+    return true;
+  }
+  if (overlay_ != Overlay::None) {
+    if (e == Event::Custom || e.is_mouse()) return true;
+    closeOverlay();
     updateTickerRate();
     return true;
   }
@@ -269,6 +304,8 @@ Element App::render() {
     for (const auto& l : boot_->visibleLines()) lines.push_back(t(l, Tone::Green));
     return vbox(std::move(lines)) | bgcolor(outputs::bgColor()) | flex;
   }
+  if (overlay_ == Overlay::Matrix && matrix_) return matrix_->render();
+  if (overlay_ == Overlay::Hack && hack_) return hack_->render(width_);
   const auto ctx = context();
   Elements blocks;
   for (const auto& b : state_.blocks) blocks.push_back(renderBlock(b, runtime_[b.id], ctx));

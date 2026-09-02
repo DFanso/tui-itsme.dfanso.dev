@@ -56,7 +56,9 @@ add_library(itsme_ui STATIC
   src/outputs/GitHubStats.cpp
   src/effects/Ticker.cpp
   src/effects/Boot.cpp
-  src/effects/Typewriter.cpp)
+  src/effects/Typewriter.cpp
+  src/effects/Matrix.cpp
+  src/effects/Hack.cpp)
 target_link_libraries(itsme_ui PUBLIC itsme_core ftxui::component ftxui::dom ftxui::screen)
 itsme_set_warnings(itsme_ui)
 
