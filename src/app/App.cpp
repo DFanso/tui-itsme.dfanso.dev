@@ -19,16 +19,26 @@ using outputs::t;
 namespace {
 const Event kCtrlL = Event::Special(std::string("\x0c"));
 const Event kCtrlD = Event::Special(std::string("\x04"));
+const Event kTick = Event::Special("itsme-tick");
+constexpr auto kFastTick = std::chrono::milliseconds(50);
+constexpr auto kIdleTick = std::chrono::milliseconds(1000);
 }  // namespace
 
 App::App(Options opts, std::shared_ptr<const github::Client> client)
     : opts_(opts), state_(core::initialState()), client_(std::move(client)) {
   outputs::setTrueColor(!opts_.noColor);
+  if (!opts_.noBoot) {
+    boot_.emplace();
+    typewriter_.emplace(outputs::welcomeTypewriterLength());
+    runtime_[0].typewriterRevealed = 0;
+  }
 }
 
-void App::Redraw::post() {
+void App::Redraw::post() { postEvent(Event::Custom); }
+
+void App::Redraw::postEvent(const Event& e) {
   std::lock_guard<std::mutex> lock(mutex);
-  if (screen) screen->PostEvent(Event::Custom);
+  if (screen) screen->PostEvent(e);
 }
 
 Component App::component() {
@@ -42,7 +52,12 @@ int App::run() {
     std::lock_guard<std::mutex> lock(redraw_->mutex);
     redraw_->screen = &screen;
   }
+  auto redraw = redraw_;
+  ticker_ = std::make_unique<effects::Ticker>(animating() ? kFastTick : kIdleTick,
+                                              [redraw] { redraw->postEvent(kTick); });
+  lastTick_ = std::chrono::steady_clock::now();
   screen.Loop(component());
+  ticker_.reset();
   {
     std::lock_guard<std::mutex> lock(redraw_->mutex);
     redraw_->screen = nullptr;
@@ -64,17 +79,44 @@ outputs::RenderContext App::context() const {
   return ctx;
 }
 
+bool App::animating() const {
+  if (boot_ && !boot_->done()) return true;
+  if (typewriter_ && !typewriter_->done()) return true;
+  for (const auto& [id, rt] : runtime_)
+    if (rt.githubFetch && !rt.githubFetch->ready()) return true;
+  return false;
+}
+
+void App::updateTickerRate() {
+  if (ticker_) ticker_->setInterval(animating() ? kFastTick : kIdleTick);
+}
+
+void App::onTick(int elapsedMs) {
+  if (boot_ && !boot_->done()) {
+    boot_->advance(elapsedMs);
+    return;
+  }
+  if (typewriter_ && !typewriter_->done()) {
+    typewriter_->advance(elapsedMs);
+    runtime_[0].typewriterRevealed = typewriter_->done() ? -1 : typewriter_->revealed();
+  }
+  for (auto& [id, rt] : runtime_)
+    if (rt.githubFetch && !rt.githubFetch->ready()) rt.spinnerFrame = (rt.spinnerFrame + 1) % 10;
+}
+
 void App::submit(const std::string& line) {
   std::uniform_real_distribution<double> dist(0.0, 1.0);
   const core::Action action = core::submit(state_, line, dist(rng_));
   scroll_ = 1.0f;
   if (action == core::Action::Clear) {
     runtime_.clear();
+    updateTickerRate();
     return;
   }
   const core::Block& added = state_.blocks.back();
   onBlockAdded(added);
   if (action != core::Action::None) performAction(action, added.id);
+  updateTickerRate();
 }
 
 void App::onBlockAdded(const core::Block& block) {
@@ -105,6 +147,20 @@ void App::performAction(core::Action /*action*/, int /*blockId*/) {
 }
 
 bool App::onEvent(const Event& e) {
+  if (e == kTick) {
+    const auto now = std::chrono::steady_clock::now();
+    const int elapsed =
+        static_cast<int>(std::chrono::duration_cast<std::chrono::milliseconds>(now - lastTick_).count());
+    lastTick_ = now;
+    onTick(elapsed);
+    updateTickerRate();
+    return true;
+  }
+  if (boot_ && !boot_->done()) return true;  // swallow input during boot
+  if (typewriter_ && !typewriter_->done() && !e.is_mouse() && e != Event::Custom) {
+    typewriter_->finish();
+    runtime_[0].typewriterRevealed = -1;
+  }
   if (e == Event::Return) {
     const std::string line = editor_.text();
     editor_.clear();
@@ -208,6 +264,11 @@ Element App::renderInputLine() {
 
 Element App::render() {
   if (screen_) width_ = screen_->dimx();
+  if (boot_ && !boot_->done()) {
+    Elements lines;
+    for (const auto& l : boot_->visibleLines()) lines.push_back(t(l, Tone::Green));
+    return vbox(std::move(lines)) | bgcolor(outputs::bgColor()) | flex;
+  }
   const auto ctx = context();
   Elements blocks;
   for (const auto& b : state_.blocks) blocks.push_back(renderBlock(b, runtime_[b.id], ctx));

@@ -1,9 +1,11 @@
 #pragma once
+#include <chrono>
 #include <ftxui/component/component.hpp>
 #include <ftxui/component/event.hpp>
 #include <ftxui/component/screen_interactive.hpp>
 #include <memory>
 #include <mutex>
+#include <optional>
 #include <random>
 #include <string>
 #include <unordered_map>
@@ -11,6 +13,9 @@
 #include "app/BlockRenderer.hpp"
 #include "core/LineEditor.hpp"
 #include "core/TerminalState.hpp"
+#include "effects/Boot.hpp"
+#include "effects/Ticker.hpp"
+#include "effects/Typewriter.hpp"
 #include "github/Client.hpp"
 #include "outputs/Outputs.hpp"
 
@@ -38,6 +43,9 @@ class App {
   virtual ftxui::Element render();
   virtual void onBlockAdded(const core::Block& block);
   virtual void performAction(core::Action action, int blockId);
+  virtual void onTick(int elapsedMs);
+  bool animating() const;
+  void updateTickerRate();
   void startFetches(const core::Block& block);
   ftxui::Element renderInputLine();
   outputs::RenderContext context() const;
@@ -49,6 +57,7 @@ class App {
     std::mutex mutex;
     ftxui::ScreenInteractive* screen = nullptr;
     void post();
+    void postEvent(const ftxui::Event& e);
   };
 
   Options opts_;
@@ -61,6 +70,11 @@ class App {
   std::mt19937 rng_{std::random_device{}()};
   std::shared_ptr<const github::Client> client_;
   std::shared_ptr<Redraw> redraw_ = std::make_shared<Redraw>();
+
+  std::unique_ptr<effects::Ticker> ticker_;
+  std::optional<effects::BootSequence> boot_;
+  std::optional<effects::Typewriter> typewriter_;  // drives the seeded welcome block (id 0)
+  std::chrono::steady_clock::time_point lastTick_ = std::chrono::steady_clock::now();
 };
 
 }  // namespace itsme::app

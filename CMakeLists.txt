@@ -53,7 +53,10 @@ add_library(itsme_ui STATIC
   src/app/TitleBar.cpp
   src/app/BlockRenderer.cpp
   src/app/App.cpp
-  src/outputs/GitHubStats.cpp)
+  src/outputs/GitHubStats.cpp
+  src/effects/Ticker.cpp
+  src/effects/Boot.cpp
+  src/effects/Typewriter.cpp)
 target_link_libraries(itsme_ui PUBLIC itsme_core ftxui::component ftxui::dom ftxui::screen)
 itsme_set_warnings(itsme_ui)
 
