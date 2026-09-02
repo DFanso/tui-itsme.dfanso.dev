@@ -1,0 +1,19 @@
+{"data":{"user":{
+  "name":"Leo","login":"dfansoo","followers":{"totalCount":42},"following":{"totalCount":7},
+  "repositories":{"totalCount":30,"nodes":[
+    {"name":"k3s","stargazerCount":10,"forkCount":2,"primaryLanguage":{"name":"Go","color":"#00ADD8"}},
+    {"name":"rss","stargazerCount":5,"forkCount":1,"primaryLanguage":{"name":"Go","color":"#00ADD8"}},
+    {"name":"site","stargazerCount":3,"forkCount":0,"primaryLanguage":{"name":"TypeScript","color":"#3178c6"}},
+    {"name":"notes","stargazerCount":0,"forkCount":0,"primaryLanguage":null}
+  ]},
+  "pinnedItems":{"nodes":[
+    {"name":"k3s","description":"K3s CI/CD","url":"https://github.com/DFanso/k3s","stargazerCount":10,"forkCount":2,"primaryLanguage":{"name":"Go","color":"#00ADD8"}}
+  ]},
+  "contributionsCollection":{
+    "totalCommitContributions":812,"totalPullRequestContributions":40,"totalIssueContributions":9,"totalRepositoryContributions":12,
+    "contributionCalendar":{"totalContributions":900,"weeks":[
+      {"contributionDays":[{"contributionCount":0,"date":"2026-08-23","weekday":0},{"contributionCount":3,"date":"2026-08-24","weekday":1}]},
+      {"contributionDays":[{"contributionCount":12,"date":"2026-08-30","weekday":0}]}
+    ]}
+  }
+}}}
