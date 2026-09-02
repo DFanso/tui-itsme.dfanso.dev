@@ -3,6 +3,7 @@
 #include <ftxui/dom/elements.hpp>
 
 #include "app/Clock.hpp"
+#include "app/Opener.hpp"
 #include "app/Prompt.hpp"
 #include "app/TitleBar.hpp"
 #include "core/Commands.hpp"
@@ -156,6 +157,16 @@ void App::startFetches(const core::Block& block) {
 }
 
 void App::performAction(core::Action action, int /*blockId*/) {
+  if (action == core::Action::OpenResume) {
+    auto& lines = state_.blocks.back().execution.text->lines;
+    const std::string& url = data::profile().resumeUrl;
+    lines.push_back(url);
+    if (isSshSession())
+      lines.push_back("(open the link above in your browser)");
+    else if (!openUrl(url))
+      lines.push_back("(could not launch a browser; open the link above manually)");
+    return;
+  }
   const int w = screen_ ? screen_->dimx() : width_;
   const int h = screen_ ? screen_->dimy() : 24;
   if (action == core::Action::Matrix) {
@@ -166,7 +177,6 @@ void App::performAction(core::Action action, int /*blockId*/) {
     hack_.emplace();
     overlay_ = Overlay::Hack;
   }
-  // Resume opening is wired in a later task.
 }
 
 void App::closeOverlay() {

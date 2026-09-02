@@ -1,0 +1,60 @@
+name: CI
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+
+jobs:
+  build:
+    name: ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { name: ubuntu-gcc,   os: ubuntu-latest,  preset: ci,   cc: gcc,   cxx: g++ }
+          - { name: ubuntu-clang, os: ubuntu-latest,  preset: ci,   cc: clang, cxx: clang++ }
+          - { name: macos,        os: macos-latest,   preset: ci,   cc: clang, cxx: clang++ }
+          - { name: windows-msvc, os: windows-latest, preset: msvc }
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install deps (Ubuntu)
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y ninja-build libcurl4-openssl-dev
+      - name: Install deps (macOS)
+        if: runner.os == 'macOS'
+        run: brew install ninja
+      - name: Configure
+        env:
+          CC: ${{ matrix.cc }}
+          CXX: ${{ matrix.cxx }}
+        run: cmake --preset ${{ matrix.preset }}
+      - name: Build
+        run: cmake --build --preset ${{ matrix.preset }}
+      - name: Test
+        run: ctest --preset ${{ matrix.preset }}
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: build
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        include:
+          - { os: ubuntu-latest,  preset: release, artifact: itsme-linux-x64,   bin: build/release/itsme }
+          - { os: macos-latest,   preset: release, artifact: itsme-macos-arm64, bin: build/release/itsme }
+          - { os: windows-latest, preset: msvc,    artifact: itsme-windows-x64, bin: build/msvc/Release/itsme.exe }
+    steps:
+      - uses: actions/checkout@v4
+      - if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y ninja-build libcurl4-openssl-dev
+      - if: runner.os == 'macOS'
+        run: brew install ninja
+      - run: cmake --preset ${{ matrix.preset }} -DITSME_BUILD_TESTS=OFF
+      - run: cmake --build --preset ${{ matrix.preset }}
+      - run: cp "${{ matrix.bin }}" "${{ matrix.artifact }}${{ runner.os == 'Windows' && '.exe' || '' }}"
+        shell: bash
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ matrix.artifact }}*
