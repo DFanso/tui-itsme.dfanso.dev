@@ -1,5 +1,9 @@
 #include "core/Commands.hpp"
 
+#include <array>
+#include <cmath>
+
+#include "core/InputHelpers.hpp"
 #include "core/Strings.hpp"
 
 namespace itsme::core {
@@ -70,6 +74,92 @@ const CommandDef* findCommand(std::string_view name) {
   for (const auto& c : commands())
     if (c.name == lower) return &c;
   return nullptr;
+}
+
+namespace {
+constexpr std::array<const char*, 7> kEmptyInputMessages = {
+    "🤔 Hmm... trying to say something?",
+    "💭 The silence is deafening...",
+    "⌨️ The keyboard is waiting for your command!",
+    "✨ Type 'help' if you're not sure what to do",
+    "🌟 Press some keys, then press Enter!",
+    "🎯 Almost there! Just need to type a command first",
+    "🚀 Ready for your input, commander!",
+};
+
+Execution textExec(Tone tone, std::vector<std::string> lines) {
+  Execution e;
+  e.kind = ExecKind::Text;
+  e.text = TextOutput{tone, std::move(lines)};
+  return e;
+}
+
+Execution actionExec(Action action, std::optional<TextOutput> echo) {
+  Execution e;
+  e.kind = ExecKind::Action;
+  e.action = action;
+  e.text = std::move(echo);
+  return e;
+}
+}  // namespace
+
+Execution executeLine(std::string_view raw, const ExecContext& ctx) {
+  const std::string command = toLower(trim(raw));
+
+  if (command.empty()) {
+    const double r = ctx.rand < 0.0 ? 0.0 : ctx.rand;
+    auto idx = static_cast<std::size_t>(std::floor(r * kEmptyInputMessages.size()));
+    if (idx >= kEmptyInputMessages.size()) idx = kEmptyInputMessages.size() - 1;
+    return textExec(Tone::Purple, {kEmptyInputMessages[idx]});
+  }
+
+  const std::string cmd = command.substr(0, command.find(' '));
+
+  if (cmd == "clear") return actionExec(Action::Clear, std::nullopt);
+  if (cmd == "resume") return actionExec(Action::OpenResume, TextOutput{Tone::Fg, {"Opening resume..."}});
+
+  if (command == "sudo")
+    return textExec(Tone::Red, {"Permission denied: You are not in the sudoers file. This incident will be "
+                                "reported to Santa Claus. 🎅"});
+
+  if (startsWith(command, "rm")) {
+    if (contains(command, "-rf") && (contains(command, "/") || contains(command, "*")))
+      return textExec(Tone::Red, {"⚠️ CRITICAL ERROR: Nice try! But I can't let you delete my portfolio."});
+    return textExec(Tone::Red, {"rm: missing operand"});
+  }
+
+  if (command == "vi" || command == "vim" || command == "nano")
+    return textExec(Tone::Yellow,
+                    {"Error: Text editor functionality not implemented yet. Try 'code .' instead? 😉"});
+
+  if (ctx.awaitingProjectResponse) {
+    if (command == "y" || command == "yes")
+      return textExec(Tone::Green, {"🔗 Check out more of my projects:", "└─▶ https://github.com/dfansoo"});
+    if (command == "n" || command == "no")
+      return textExec(Tone::Green, {"└─▶ Alright! Feel free to explore other commands using `help`."});
+    Execution e = textExec(Tone::Red, {"└─▶ Please answer with y or n."});
+    e.awaitProjectResponse = true;
+    return e;
+  }
+
+  if (cmd == "matrix")
+    return actionExec(Action::Matrix,
+                      TextOutput{Tone::Green, {"Launching matrix simulation... (press ESC or any key to exit)"}});
+  if (cmd == "hack")
+    return actionExec(Action::Hack, TextOutput{Tone::Red, {"Initiating hack sequence... (stand by)"}});
+
+  if (const CommandDef* found = findCommand(command)) {
+    Execution e;
+    e.kind = ExecKind::Component;
+    e.componentName = found->name;
+    e.awaitProjectResponse = (found->name == "projects");
+    return e;
+  }
+
+  std::vector<std::string> lines = {"└─▶ Command not found: " + command};
+  if (auto suggestion = suggestClosest(command, commandNames()))
+    lines.push_back("Did you mean '" + *suggestion + "'?");
+  return textExec(Tone::Red, std::move(lines));
 }
 
 }  // namespace itsme::core

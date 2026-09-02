@@ -1,6 +1,7 @@
 add_executable(itsme_tests sanity_test.cpp)
 target_sources(itsme_tests PRIVATE core/commands_test.cpp)
 target_sources(itsme_tests PRIVATE core/input_helpers_test.cpp)
+target_sources(itsme_tests PRIVATE core/execute_line_test.cpp)
 target_link_libraries(itsme_tests PRIVATE itsme_core Catch2::Catch2WithMain)
 itsme_set_warnings(itsme_tests)
 include(Catch)
