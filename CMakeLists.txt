@@ -29,8 +29,22 @@ target_link_libraries(itsme_core PUBLIC nlohmann_json::nlohmann_json)
 target_compile_definitions(itsme_core PUBLIC ITSME_VERSION="${PROJECT_VERSION}")
 itsme_set_warnings(itsme_core)
 
+add_library(itsme_ui STATIC
+  src/outputs/Theme.cpp
+  src/outputs/Common.cpp
+  src/outputs/TextOutput.cpp
+  src/outputs/Welcome.cpp
+  src/outputs/Whoami.cpp
+  src/outputs/About.cpp
+  src/outputs/Education.cpp
+  src/outputs/Certifications.cpp
+  src/outputs/Contact.cpp
+  src/outputs/Misc.cpp)
+target_link_libraries(itsme_ui PUBLIC itsme_core ftxui::component ftxui::dom ftxui::screen)
+itsme_set_warnings(itsme_ui)
+
 add_executable(itsme src/main.cpp)
-target_link_libraries(itsme PRIVATE itsme_core)
+target_link_libraries(itsme PRIVATE itsme_ui)
 itsme_set_warnings(itsme)
 
 if(ITSME_BUILD_TESTS)
