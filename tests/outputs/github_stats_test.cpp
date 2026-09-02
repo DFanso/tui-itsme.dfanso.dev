@@ -22,7 +22,7 @@ TEST_CASE("github stats states") {
   ready.data = itsme::github::parseGraphQL(readFixture("github_graphql.json"));
   auto s = renderPlain(renderGitHubStats(ready, RenderContext{100, 12}), 100, 40);
   CHECK(s.find("GitHub Statistics") != std::string::npos);
-  CHECK(s.find("@dfansoo") != std::string::npos);
+  CHECK(s.find("@DFanso") != std::string::npos);
   CHECK(s.find("812") != std::string::npos);
   CHECK(s.find("Commits") != std::string::npos);
   CHECK(s.find("Go 67%") != std::string::npos);

@@ -134,7 +134,7 @@ Execution executeLine(std::string_view raw, const ExecContext& ctx) {
 
   if (ctx.awaitingProjectResponse) {
     if (command == "y" || command == "yes")
-      return textExec(Tone::Green, {"🔗 Check out more of my projects:", "└─▶ https://github.com/dfansoo"});
+      return textExec(Tone::Green, {"🔗 Check out more of my projects:", "└─▶ https://github.com/DFanso"});
     if (command == "n" || command == "no")
       return textExec(Tone::Green, {"└─▶ Alright! Feel free to explore other commands using `help`."});
     Execution e = textExec(Tone::Red, {"└─▶ Please answer with y or n."});

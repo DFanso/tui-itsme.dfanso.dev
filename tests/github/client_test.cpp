@@ -28,9 +28,9 @@ struct FakeHttp {
         return HttpResponse{graphqlStatus, graphqlStatus == 200 ? readFixture("github_graphql.json") : "{}"};
       }
       if (!restOk) return std::nullopt;
-      if (url == "https://api.github.com/users/dfansoo")
+      if (url == "https://api.github.com/users/DFanso")
         return HttpResponse{200, readFixture("github_rest_user.json")};
-      if (url.rfind("https://api.github.com/users/dfansoo/repos", 0) == 0)
+      if (url.rfind("https://api.github.com/users/DFanso/repos", 0) == 0)
         return HttpResponse{200, readFixture("github_rest_repos.json")};
       if (url == "https://api.github.com/repos/DFanso/k3s") return HttpResponse{200, readFixture("repo_stats.json")};
       return HttpResponse{404, "{}"};

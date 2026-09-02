@@ -6,7 +6,7 @@ using namespace itsme::data;
 
 TEST_CASE("profile basics") {
   CHECK(profile().name == "Leo Felcianas");
-  CHECK(profile().githubHandle == "github.com/dfansoo");
+  CHECK(profile().githubHandle == "github.com/DFanso");
   CHECK(profile().resumeUrl == "https://itsme.dfanso.dev/resume.pdf");
 }
 

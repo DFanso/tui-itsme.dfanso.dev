@@ -6,7 +6,7 @@
 
 namespace itsme::github {
 
-inline constexpr const char* kUsername = "dfansoo";
+inline constexpr const char* kUsername = "DFanso";
 
 struct Stats {
   long commits = 0, prs = 0, issues = 0, repos = 0, stars = 0, forks = 0, followers = 0, contributions = 0;
