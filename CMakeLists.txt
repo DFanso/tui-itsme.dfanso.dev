@@ -23,7 +23,8 @@ add_library(itsme_core STATIC
   src/core/InputHelpers.cpp
   src/core/TerminalState.cpp
   src/core/LineEditor.cpp
-  src/data/Portfolio.cpp)
+  src/data/Portfolio.cpp
+  src/github/Parse.cpp)
 target_include_directories(itsme_core PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
 target_link_libraries(itsme_core PUBLIC nlohmann_json::nlohmann_json)
 target_compile_definitions(itsme_core PUBLIC ITSME_VERSION="${PROJECT_VERSION}")
@@ -45,7 +46,12 @@ add_library(itsme_ui STATIC
   src/outputs/Skills.cpp
   src/outputs/Experience.cpp
   src/outputs/Projects.cpp
-  src/outputs/Neofetch.cpp)
+  src/outputs/Neofetch.cpp
+  src/app/Clock.cpp
+  src/app/Prompt.cpp
+  src/app/TitleBar.cpp
+  src/app/BlockRenderer.cpp
+  src/app/App.cpp)
 target_link_libraries(itsme_ui PUBLIC itsme_core ftxui::component ftxui::dom ftxui::screen)
 itsme_set_warnings(itsme_ui)
 
