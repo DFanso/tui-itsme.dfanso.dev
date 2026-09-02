@@ -20,7 +20,9 @@ endif()
 add_library(itsme_core STATIC
   src/core/Version.cpp
   src/core/Commands.cpp
-  src/core/InputHelpers.cpp)
+  src/core/InputHelpers.cpp
+  src/core/TerminalState.cpp
+  src/core/LineEditor.cpp)
 target_include_directories(itsme_core PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
 target_link_libraries(itsme_core PUBLIC nlohmann_json::nlohmann_json)
 target_compile_definitions(itsme_core PUBLIC ITSME_VERSION="${PROJECT_VERSION}")
