@@ -5,6 +5,7 @@
 #include <string>
 
 #include "core/Command.hpp"
+#include "github/Model.hpp"
 
 namespace itsme::outputs {
 
@@ -27,5 +28,12 @@ ftxui::Element renderContact();
 ftxui::Element renderWeather();
 ftxui::Element renderPing();
 ftxui::Element renderTime(const std::string& timeString);
+
+ftxui::Element renderHelp();
+ftxui::Element renderLs();
+ftxui::Element renderSkills();
+ftxui::Element renderExperience();
+ftxui::Element renderNeofetch();
+ftxui::Element renderProjects(const github::ProjectStatsMap* stats);
 
 }  // namespace itsme::outputs

@@ -39,7 +39,13 @@ add_library(itsme_ui STATIC
   src/outputs/Education.cpp
   src/outputs/Certifications.cpp
   src/outputs/Contact.cpp
-  src/outputs/Misc.cpp)
+  src/outputs/Misc.cpp
+  src/outputs/Help.cpp
+  src/outputs/Ls.cpp
+  src/outputs/Skills.cpp
+  src/outputs/Experience.cpp
+  src/outputs/Projects.cpp
+  src/outputs/Neofetch.cpp)
 target_link_libraries(itsme_ui PUBLIC itsme_core ftxui::component ftxui::dom ftxui::screen)
 itsme_set_warnings(itsme_ui)
 
