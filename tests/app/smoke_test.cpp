@@ -25,7 +25,7 @@ TEST_CASE("prompt variants") {
 }
 
 TEST_CASE("app renders title bar, seeded blocks and the input line") {
-  App app(Options{true, false});
+  App app(Options{true, false}, nullptr);
   app.resize(100);
   auto s = renderPlain(app.component()->Render(), 100, 40);
   CHECK(s.find("guest@dfanso.dev:~") != std::string::npos);
@@ -35,7 +35,7 @@ TEST_CASE("app renders title bar, seeded blocks and the input line") {
 }
 
 TEST_CASE("typing, tab completion, enter and history") {
-  App app(Options{true, false});
+  App app(Options{true, false}, nullptr);
   auto root = app.component();
   root->OnEvent(Event::Character("a"));
   root->OnEvent(Event::Character("b"));

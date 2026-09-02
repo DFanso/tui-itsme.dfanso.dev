@@ -1,9 +1,12 @@
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
+#include <memory>
 
 #include "app/App.hpp"
 #include "core/Version.hpp"
+#include "github/Client.hpp"
+#include "github/CurlHttp.hpp"
 
 #ifdef _WIN32
 #include <windows.h>
@@ -63,6 +66,8 @@ int main(int argc, char** argv) {
   SetConsoleOutputCP(CP_UTF8);
   SetConsoleCP(CP_UTF8);
 #endif
-  itsme::app::App app(opts);
+  auto client = std::make_shared<const itsme::github::Client>(itsme::github::tokenFromEnv(),
+                                                              itsme::github::curlHttp());
+  itsme::app::App app(opts, client);
   return app.run();
 }

@@ -24,7 +24,8 @@ add_library(itsme_core STATIC
   src/core/TerminalState.cpp
   src/core/LineEditor.cpp
   src/data/Portfolio.cpp
-  src/github/Parse.cpp)
+  src/github/Parse.cpp
+  src/github/Client.cpp)
 target_include_directories(itsme_core PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
 target_link_libraries(itsme_core PUBLIC nlohmann_json::nlohmann_json)
 target_compile_definitions(itsme_core PUBLIC ITSME_VERSION="${PROJECT_VERSION}")
@@ -51,12 +52,17 @@ add_library(itsme_ui STATIC
   src/app/Prompt.cpp
   src/app/TitleBar.cpp
   src/app/BlockRenderer.cpp
-  src/app/App.cpp)
+  src/app/App.cpp
+  src/outputs/GitHubStats.cpp)
 target_link_libraries(itsme_ui PUBLIC itsme_core ftxui::component ftxui::dom ftxui::screen)
 itsme_set_warnings(itsme_ui)
 
+add_library(itsme_net STATIC src/github/CurlHttp.cpp)
+target_link_libraries(itsme_net PUBLIC itsme_core CURL::libcurl)
+itsme_set_warnings(itsme_net)
+
 add_executable(itsme src/main.cpp)
-target_link_libraries(itsme PRIVATE itsme_ui)
+target_link_libraries(itsme PRIVATE itsme_ui itsme_net)
 itsme_set_warnings(itsme)
 
 if(ITSME_BUILD_TESTS)

@@ -2,6 +2,7 @@
 
 #include "app/Prompt.hpp"
 #include "outputs/Common.hpp"
+#include "outputs/GitHubStats.hpp"
 
 namespace itsme::app {
 using namespace ftxui;
@@ -13,7 +14,11 @@ Element renderComponent(const std::string& name, const BlockRuntime& rt, const R
   if (name == "welcome") return renderWelcome(ctx, rt.typewriterRevealed);
   if (name == "whoami") return renderWhoami();
   if (name == "about") return renderAbout();
-  if (name == "projects") return renderProjects(rt.projects.get());
+  if (name == "projects") {
+    const github::ProjectStatsMap* stats =
+        (rt.projectsFetch && rt.projectsFetch->ready()) ? &rt.projectsFetch->get() : nullptr;
+    return renderProjects(stats);
+  }
   if (name == "skills") return renderSkills();
   if (name == "experience") return renderExperience();
   if (name == "education") return renderEducation();
@@ -25,7 +30,19 @@ Element renderComponent(const std::string& name, const BlockRuntime& rt, const R
   if (name == "time") return renderTime(rt.timeString);
   if (name == "weather") return renderWeather();
   if (name == "ping") return renderPing();
-  if (name == "github") return t("GitHub stats are not available in this build.", Tone::Muted);
+  if (name == "github") {
+    GitHubView view;
+    view.spinnerFrame = rt.spinnerFrame;
+    if (!rt.githubFetch) {
+      view.status = GitHubView::Status::Failed;
+    } else if (!rt.githubFetch->ready()) {
+      view.status = GitHubView::Status::Loading;
+    } else {
+      view.data = rt.githubFetch->get();
+      view.status = view.data ? GitHubView::Status::Ready : GitHubView::Status::Failed;
+    }
+    return renderGitHubStats(view, ctx);
+  }
   return t("(no renderer for '" + name + "')", Tone::Red);
 }
 }  // namespace

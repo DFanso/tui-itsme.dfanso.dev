@@ -7,6 +7,7 @@
 #include "app/TitleBar.hpp"
 #include "core/Commands.hpp"
 #include "core/InputHelpers.hpp"
+#include "data/Portfolio.hpp"
 #include "outputs/Common.hpp"
 #include "outputs/Theme.hpp"
 
@@ -20,7 +21,15 @@ const Event kCtrlL = Event::Special(std::string("\x0c"));
 const Event kCtrlD = Event::Special(std::string("\x04"));
 }  // namespace
 
-App::App(Options opts) : opts_(opts), state_(core::initialState()) { outputs::setTrueColor(!opts_.noColor); }
+App::App(Options opts, std::shared_ptr<const github::Client> client)
+    : opts_(opts), state_(core::initialState()), client_(std::move(client)) {
+  outputs::setTrueColor(!opts_.noColor);
+}
+
+void App::Redraw::post() {
+  std::lock_guard<std::mutex> lock(mutex);
+  if (screen) screen->PostEvent(Event::Custom);
+}
 
 Component App::component() {
   return CatchEvent(Renderer([this] { return render(); }), [this](const Event& e) { return onEvent(e); });
@@ -29,14 +38,20 @@ Component App::component() {
 int App::run() {
   auto screen = ScreenInteractive::Fullscreen();
   screen_ = &screen;
+  {
+    std::lock_guard<std::mutex> lock(redraw_->mutex);
+    redraw_->screen = &screen;
+  }
   screen.Loop(component());
+  {
+    std::lock_guard<std::mutex> lock(redraw_->mutex);
+    redraw_->screen = nullptr;
+  }
   screen_ = nullptr;
   return 0;
 }
 
-void App::requestRedraw() {
-  if (screen_) screen_->PostEvent(Event::Custom);
-}
+void App::requestRedraw() { redraw_->post(); }
 
 void App::requestExit() {
   if (screen_) screen_->Exit();
@@ -63,8 +78,26 @@ void App::submit(const std::string& line) {
 }
 
 void App::onBlockAdded(const core::Block& block) {
-  if (block.execution.kind == core::ExecKind::Component && block.execution.componentName == "time")
-    runtime_[block.id].timeString = clockHHMMSS(localNow());
+  if (block.execution.kind != core::ExecKind::Component) return;
+  if (block.execution.componentName == "time") runtime_[block.id].timeString = clockHHMMSS(localNow());
+  startFetches(block);
+}
+
+void App::startFetches(const core::Block& block) {
+  if (!client_) return;
+  auto client = client_;
+  auto redraw = redraw_;
+  const auto& name = block.execution.componentName;
+  if (name == "github") {
+    runtime_[block.id].githubFetch = core::AsyncValue<std::optional<github::GitHubStatsData>>::start(
+        [client] { return client->fetchStats(); }, [redraw] { redraw->post(); });
+  } else if (name == "projects") {
+    std::vector<std::string> repos;
+    for (const auto& p : data::projects())
+      if (p.github) repos.push_back(*p.github);
+    runtime_[block.id].projectsFetch = core::AsyncValue<github::ProjectStatsMap>::start(
+        [client, repos] { return client->fetchProjectStats(repos); }, [redraw] { redraw->post(); });
+  }
 }
 
 void App::performAction(core::Action /*action*/, int /*blockId*/) {
