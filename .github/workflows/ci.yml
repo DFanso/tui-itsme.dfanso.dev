@@ -16,9 +16,12 @@ jobs:
           - { name: ubuntu-gcc,   os: ubuntu-latest,  preset: ci,   cc: gcc,   cxx: g++ }
           - { name: ubuntu-clang, os: ubuntu-latest,  preset: ci,   cc: clang, cxx: clang++ }
           - { name: macos,        os: macos-latest,   preset: ci,   cc: clang, cxx: clang++ }
-          - { name: windows-msvc, os: windows-latest, preset: msvc }
+          - { name: windows-msvc, os: windows-latest, preset: ci }
     steps:
       - uses: actions/checkout@v4
+      - name: MSVC environment (Windows)
+        if: runner.os == 'Windows'
+        uses: ilammy/msvc-dev-cmd@v1
       - name: Install deps (Ubuntu)
         if: runner.os == 'Linux'
         run: sudo apt-get update && sudo apt-get install -y ninja-build libcurl4-openssl-dev
@@ -44,9 +47,11 @@ jobs:
         include:
           - { os: ubuntu-latest,  preset: release, artifact: itsme-linux-x64,   bin: build/release/itsme }
           - { os: macos-latest,   preset: release, artifact: itsme-macos-arm64, bin: build/release/itsme }
-          - { os: windows-latest, preset: msvc,    artifact: itsme-windows-x64, bin: build/msvc/Release/itsme.exe }
+          - { os: windows-latest, preset: release, artifact: itsme-windows-x64, bin: build/release/itsme.exe }
     steps:
       - uses: actions/checkout@v4
+      - if: runner.os == 'Windows'
+        uses: ilammy/msvc-dev-cmd@v1
       - if: runner.os == 'Linux'
         run: sudo apt-get update && sudo apt-get install -y ninja-build libcurl4-openssl-dev
       - if: runner.os == 'macOS'
